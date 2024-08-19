@@ -16,7 +16,7 @@ Previous works, such as Verrat et al., NeuroImage 2016 (doi: 10.1016/j.neuroimag
 (2) MATLAB Parallel Computing Toolbox (https://www.mathworks.com/products/parallel-computing.html).
 
 ## Usage
-Run denoising_experiment.m in MATLAB. 
+Run "denoising_experiment.m" in MATLAB. 
 * This script load the sample k-space data, perform RLLR and RMT denoising and display the image results.
 * Parameters: (1) dataset index (phantom or in vivo liver) and (2) patch size for denoising (e.g., [5,5,5])
 
