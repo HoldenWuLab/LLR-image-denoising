@@ -24,12 +24,13 @@ Run "denoising_experiment.m" in MATLAB.
 We provide two example datasets to test the denoising performance: (1) a reference phantom containing proton-density fat fraction (PDFF)-only and R2*-only vials, and (2) an in vivo liver dataset. Both datasets were acquired using a multi-echo gradient-echo Cartesian Dixon sequence on a prototype 0.55T MRI system. Details on the acquisition parameters can be found in our paper.
 
 ## Acknowledgements
-(1) We thank the Dynamic Imaging Science Center (DISC) at the University of Southern California for supporting data acquisition. \
+(1) We thank the Dynamic Imaging Science Center (DISC) at the University of Southern California for supporting data acquisition. 
+
 (2) We acknowledge the use or adaptation of the following code and toolboxes. \
 a. GRAPPA Reconstruction Tools by Mark Chiew (Link: https://github.com/mchiew/grappa-tools) \
 b. im2row and row2im functions in ESPIRiT toolbox by Michael Lustig (Link: https://people.eecs.berkeley.edu/~mlustig/Software.html) \
 c. sure_svt function (Stein's Unbiased Risk Estimate (SURE) for Singular Value Thresholding) by Emmanuel Candès (Link: https://candes.su.domains/software/SURE/data.html) \
-d. optimal_shrinkage function (optimal singular value shrinkage) by Matan Gavish and David Donoho (Link: https://purl.stanford.edu/kv623gt2817) \
+d. optimal_shrinkage function (optimal singular value shrinkage) by Matan Gavish and David Donoho (Link: https://purl.stanford.edu/kv623gt2817) 
 
 ## Contact
 Please contact Shu-Fu Shih (sshih@mednet.ucla.edu) or Holden Wu (holdenwu@mednet.ucla.edu) if you have any questions.
