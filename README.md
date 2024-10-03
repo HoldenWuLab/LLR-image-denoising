@@ -3,7 +3,7 @@
 This page shares the code for the paper "Improved Liver Fat and R2* Quantification at 0.55T using Locally Low-Rank Denoising".
 
 ## Overview
-Locally low-rank principal component analysis (PCA)-based denoising is one popular approach to suppress noise in multi-contrast MR images. By suppressing principal components associated with smaller coefficients, noise can be reduced while signal can be largely preserved. Here, we implemented two different denoising approaches that can accurately estimate the underlying noise variance for noise suppression.
+Locally low-rank principal component analysis (PCA)-based denoising is one popular approach to suppress noise in multi-contrast MR images. By suppressing principal components associated with smaller coefficients, noise can be reduced while signal can be largely preserved. Here, we implemented two different denoising approaches that can accurately estimate the underlying noise variance and suppress noise.
 
 ### Method 1: Robust Locally Low-Rank (RLLR) denoising
 This method was first proposed in Lugauer et al., MICCAI 2015 (doi: 10.1007/978-3-319-24571-3_80). Using samples of random matrices from a known Gaussian distribution, the noise level in the multi-echo images can be estimated. Based on Stein’s unbiased risk estimate (SURE), the singular value threshold can be objectively obtained for noise suppression. 
