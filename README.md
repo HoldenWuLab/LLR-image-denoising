@@ -1,6 +1,9 @@
 # Improved Liver Fat and R2* Quantification at 0.55T using Locally Low-Rank Denoising
 
-This page shares the code for the paper "Improved Liver Fat and R2* Quantification at 0.55T using Locally Low-Rank Denoising".
+This page shares the code for the paper published in Magnetic Resonance in Medicine under the title "Improved Liver Fat and R2* Quantification at 0.55T using Locally Low-Rank Denoising".
+
+Please cite this work if you use the code:
+Shih, S-F, Tasdelen, B, Yagiz, E, Zhang, Z, Zhong, X, Cui, SX, Nayak, KS and Wu, HH. Improved liver fat and R2* quantification at 0.55 T using locally low‐rank denoising. Magnetic Resonance in Medicine. https://doi.org/10.1002/mrm.30324
 
 ## Overview
 Locally low-rank principal component analysis (PCA)-based denoising is one popular approach to suppress noise in multi-contrast MR images. By suppressing principal components associated with smaller coefficients, noise can be reduced while signal can be largely preserved. Here, we implemented two different denoising approaches that can accurately estimate the underlying noise variance and suppress noise.
